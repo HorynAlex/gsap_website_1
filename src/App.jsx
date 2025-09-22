@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import Cockails from "./components/Cockails";
 import About from "./components/About";
 import Art from "./components/Art";
+import Menu from "./components/Menu";
+import Contact from "./components/Contact";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -17,6 +19,8 @@ const App = () => {
       <Cockails />
       <About />
       <Art />
+      <Menu />
+      <Contact />
     </main>
   );
 };
